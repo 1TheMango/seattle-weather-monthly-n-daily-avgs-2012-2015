@@ -36,7 +36,7 @@ def Monthlyavg(dyear,month1,month2,data1):
     plt.figure(figsize=(15,5))
     plt.plot(months,avgtemp,marker='o')
     plt.title("Average temperature of every month")
-    plt.xlabel("Months")
+    plt.xlabel("Monts")
     plt.ylabel("Avg Temperature")
     plt.grid(True)
     plt.show()
